@@ -124,6 +124,10 @@ class SheetPrimaryScrollPosition extends ScrollPositionWithSingleContext {
 
   @override
   void goBallistic(double velocity) {
+    print("BALLISTIC CALL");
+    if (velocity == 0) {
+      return;
+    }
     if (sheetPosition.preventingDrag) {
       beginActivity(
         BallisticScrollActivity(
