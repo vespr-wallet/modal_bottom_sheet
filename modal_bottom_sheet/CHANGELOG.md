@@ -1,4 +1,4 @@
-## Fork
+## 3.0.1 Fork
 This is a fork of this repo: https://github.com/vespr-wallet/modal_bottom_sheet, which in itself is a fork of: https://github.com/jamesblasco/modal_bottom_sheet.
 
 The original repo has seemingly been abandoned. The reason for using this fork are:
